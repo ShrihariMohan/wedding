@@ -6,7 +6,7 @@ export default function Home() {
       <div className="max-w-lg w-full bg-orange-100 rounded-xl shadow-xl overflow-hidden">
         <div className="aspect-w-16 aspect-h-9">
           <video
-            controls autoPlay
+            controls autoPlay  playsInline
             className="w-full h-full object-cover"
             poster="/poster-1.jpeg"
           >
@@ -14,8 +14,8 @@ export default function Home() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 p-8">
-          <Button href="/shrihari-invite.pdf">E-Invite</Button>
+        <div className="grid grid-cols-2 gap-4 p-8">
+          <Button href="/anusha-invite.pdf">E-Invite</Button>
           <Button href="https://maps.app.goo.gl/VDBmxqeG9LrB7NMY6">Location</Button>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function Home() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 p-8">
+        <div className="grid grid-cols-2 justify-center gap-4 p-8">
           <Button href="/shrihari-invite.pdf">E-Invite</Button>
           <Button href="https://maps.app.goo.gl/VDBmxqeG9LrB7NMY6">Location</Button>
         </div>
