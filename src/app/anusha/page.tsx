@@ -1,4 +1,4 @@
-import { Button } from '../components/Button'
+import { Button } from '../../components/Button'
 
 export default function Home() {
   return (
@@ -8,9 +8,9 @@ export default function Home() {
           <video
             controls autoPlay
             className="w-full h-full object-cover"
-            poster="/poster-1.jpeg"
+            poster="/poster-2.jpeg"
           >
-            <source src="/shrihari-invite.mp4" type="video/mp4" />
+            <source src="/anusha-invite.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
