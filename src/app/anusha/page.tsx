@@ -15,7 +15,7 @@ export default function Home() {
           </video>
         </div>
         <div className="flex flex-col sm:flex-row justify-center gap-4 p-8">
-          <Button href="/shrihari-invite.pdf">E-Invite</Button>
+          <Button href="/anusha-invite.pdf">E-Invite</Button>
           <Button href="https://maps.app.goo.gl/VDBmxqeG9LrB7NMY6">Location</Button>
         </div>
       </div>
