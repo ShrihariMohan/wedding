@@ -15,7 +15,7 @@ export default function Home() {
           </video>
         </div>
         <div className="grid grid-cols-2 gap-4 p-8">
-          <Button href="/anusha-invite.pdf">E-Invite</Button>
+          <Button href="/shrihari-invite.pdf">E-Invite</Button>
           <Button href="https://maps.app.goo.gl/VDBmxqeG9LrB7NMY6">Location</Button>
         </div>
       </div>
